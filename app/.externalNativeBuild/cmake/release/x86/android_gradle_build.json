@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "D:/WorkSpace/GitHubAndroid/Animation/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\developer_tools\\new_eclipse\\sdk\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\WorkSpace\\GitHubAndroid\\Animation\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\developer_tools\\new_eclipse\\sdk\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\WorkSpace\\GitHubAndroid\\Animation\\app\\.externalNativeBuild\\cmake\\release\\x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain D:/developer_tools/new_eclipse/android-ndk-r13b-windows-x86_64/android-ndk-r13b/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/developer_tools/new_eclipse/android-ndk-r13b-windows-x86_64/android-ndk-r13b/platforms/android-21/arch-x86  -Dnative_lib_EXPORTS -isystem D:\\developer_tools\\new_eclipse\\android-ndk-r13b-windows-x86_64\\android-ndk-r13b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\developer_tools\\new_eclipse\\android-ndk-r13b-windows-x86_64\\android-ndk-r13b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem D:\\developer_tools\\new_eclipse\\android-ndk-r13b-windows-x86_64\\android-ndk-r13b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/WorkSpace/GitHubAndroid/Animation/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/WorkSpace/GitHubAndroid/Animation/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "D:/WorkSpace/GitHubAndroid/Animation/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "995427217"
+		}
+	},
+	"toolchains" : 
+	{
+		"995427217" : 
+		{
+			"cCompilerExecutable" : "D:/developer_tools/new_eclipse/android-ndk-r13b-windows-x86_64/android-ndk-r13b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/developer_tools/new_eclipse/android-ndk-r13b-windows-x86_64/android-ndk-r13b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
