@@ -3,7 +3,7 @@
 
 extern "C"
 jstring
-Java_com_minjs_cn_animation_MainActivity_stringFromJNI(
+Java_com_minjs_cn_animation_AnimationActivity_stringFromJNI(
         JNIEnv* env,
         jobject /* this */) {
     std::string hello = "Hello from C++";
